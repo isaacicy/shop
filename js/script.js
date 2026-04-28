@@ -15,8 +15,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 4,
-      spaceBetween: 30,
+      slidesPerView: "auto",
+      spaceBetween: 5,
+      autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+      pauseOnMouseEnter: true,
+      },
+      loop: true, 
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
