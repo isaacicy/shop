@@ -1,0 +1,10 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+<svg fill="#f0000" width="800px" height="800px" viewBox="0 0 24 24" id="price-tag" data-name="Flat Color" xmlns="http://www.w3.org/2000/svg" class="icon flat-color" stroke="#f0000">
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="SVGRepo_iconCarrier">
+<path id="primary" d="M20,2H14a1,1,0,0,0-.71.29L3,12.55a2,2,0,0,0,0,2.83L8.62,21a2,2,0,0,0,1.41.59h0A2,2,0,0,0,11.45,21L21.71,10.7A1,1,0,0,0,22,10V4A2,2,0,0,0,20,2Z" style="fill: #03005B;"/>
+<circle id="secondary" cx="17.5" cy="6.5" r="1.5" style="fill: #f0c040;"/>
+</g>
+</svg>
