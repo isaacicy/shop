@@ -203,7 +203,6 @@ background: url(../img/pawnNdrive.jpg) no-repeat center / cover;
     color: var(--primary-color);
     font-family: "Playfair Display", serif;
     margin: 0 0 10px 0;
-    
     text-shadow: 0 0 5px #fff,
     0 0 10px #fff,
     0 0 20px whitesmoke,
@@ -230,9 +229,64 @@ background: url(../img/pawnNpark.jpg) no-repeat center / cover;
 .services {
     align-items: center;
     gap: 4rem;
-    margin-top: 2rem;
+    margin: 2.5rem 0 3rem 0;
 }
 
+.services h1 {
+    text-align: center;
+    color: var(--primary-color);
+    font-family: "Playfair Display", serif;
+    font-size: 1.5rem;
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px whitesmoke,
+    0 0 30px whitesmoke,
+    0 0 40px whitesmoke;
+}
+
+.services p {
+    text-align: center;
+    color: var(--text-color);
+    font-family: "Playfair Display", serif;
+    font-size: 1.1rem;
+    text-shadow: var(--text-shadow);
+    @media (width <= calc(550 / 16 * 1rem)) {
+        font-size: 1.1rem;
+        margin: 0;
+}
+}
+.text div {
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 40px;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.5);
+    width: 20rem;
+    height: 20rem;
+}
+
+.pawn {
+    background: url(../img/pawn1.jpg) no-repeat center / cover;
+}
+
+.buyUsed {
+    background: url(../img/buyUsed.jpg) no-repeat center / cover;
+}
+
+.buyNew {
+    background: url(../img/buyNew.jfif) no-repeat center / cover;
+}
+
+.text {
+  display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+@media (width <= calc(550 / 16 * 1rem)) {
+    flex-direction: column;
+
+}
+}
 
 .services ul {
   text-align: center;
@@ -270,6 +324,10 @@ footer nav {
     padding: 15px;
     border-radius: 40px;
     box-shadow: 0 25px 50px rgba(0,0,0,0.5);
+    width: 60%;
+    @media (width <= calc(550 / 16 * 1rem)) {
+    width: 100%;
+    }
 }
 
 .info{
@@ -281,16 +339,12 @@ footer nav {
 }
 
 .info iframe {
-  height: 80% !important;
+  height: 100% !important;
   width: 100% !important;
   border: 0;
 
-  @media screen and (max-width: 767px) {
-  iframe[src*="google.com/maps"] {
-    height: 300px !important; /* Forces a shorter height on mobile only */
-    width: 80% !important; 
+  @media (width<= calc(550 / 16 * 1rem)) {
   }
- }
 
 }
 
